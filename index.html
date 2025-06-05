@@ -133,6 +133,37 @@
                 devType = 'phone';
                 vWidth = 450;
                 vHeight = 2000;
+              
+            launchViz(0);
+            console.log("launch1")
+             vHeight = 1600;
+            launchViz(1);
+    
+            console.log("launch2")
+            vHeight = 1200;
+            launchViz(2);
+            console.log("launch3")
+            //launchViz(3);
+            vHeight = 1800;
+           // launchViz(4);
+            vHeight = 1100;
+            vHideToolbar = true;
+            vHideTabs = true;
+            //launchViz(5);
+           // launchViz(6);
+            vHeight = 1500;
+           // launchViz(7);
+            vHeight = 8000;
+    
+            //launchViz(8);
+            vHeight = 1300;
+    
+            vHideToolbar = false;
+            vHideTabs = false;
+           // launchViz(9);
+            vHeight = 1000;
+            //launchViz(10);
+            vHeight = 1000;
                 //options.device = 'phone';
             } else if (window.matchMedia("(max-width: 980px)").matches) {
                 //alert("I am a tablet layout!");
@@ -145,7 +176,7 @@
                 vWidth = 1666;
                 vHeight = 1000;
                 //options.device = 'desktop';
-            }
+            
             console.log("devtype: " + devType)
             console.log("launch0")
             vHeight = 900;
@@ -181,7 +212,7 @@
             launchViz(11);
             launchViz(12);
             launchViz(13);
-    
+    }
             // Launches the viz again with the new sizing at the current index of vizList.
         }
     
